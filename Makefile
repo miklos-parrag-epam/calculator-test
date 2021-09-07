@@ -5,7 +5,7 @@ local-docker-build:
 	docker build -t localhost/$(APP):dev .
 
 local-docker-run:
-	docker run -p 80:8080 --rm localhost/$(APP):dev
+	docker run --rm localhost/$(APP):dev
 
 # GCloud-specific targets
 gcloud-docker-init:
