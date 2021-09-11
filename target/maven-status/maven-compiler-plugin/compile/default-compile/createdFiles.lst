@@ -1,0 +1,4 @@
+com/example/calculatortest/CalculatorTestApplication.class
+com/example/calculatortest/domain/UsersDictionary.class
+com/example/calculatortest/services/Calculator.class
+com/example/calculatortest/controllers/Controller.class
