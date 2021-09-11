@@ -1,13 +1,15 @@
 package com.example.calculatortest.services;
 
 import com.example.calculatortest.domain.UsersDictionary;
+import org.springframework.stereotype.Service;
 
+
+@Service
 public class Calculator {
-    UsersDictionary usersDict = null;
+    private final UsersDictionary usersDict;
 
     public Calculator(UsersDictionary usersDict) {
-        this.usersDict = new UsersDictionary();
-        addUser("Gizi", "add");
+        this.usersDict = usersDict;
     }
 
     public String calculate(String a, String b, String user, String opr) {
@@ -25,7 +27,4 @@ public class Calculator {
         return String.valueOf(Integer.parseInt(a) + Integer.parseInt(b));
     }
 
-    public void addUser(String name, String role){
-        usersDict.addUser(name, role);
-    }
 }

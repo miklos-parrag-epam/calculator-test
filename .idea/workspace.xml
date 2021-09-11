@@ -5,48 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bfc74de-58cb-421d-89c3-534b9f0bda4f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/calculatortest/controllers/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/calculatortest/services/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/calculatortest/TestCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/calculatortest/TestUserDictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.calculatortest.CalculatorTestApplicationTests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.calculatortest.TestCalculator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.calculatortest.TestUserDictionary.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.example.calculatortest.CalculatorTestApplicationTests.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.example.calculatortest.TestCalculator.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.example.calculatortest.TestUserDictionary.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/calculatortest/CalculatorIntegrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/calculatortest/IntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/calculatortest/calculatortest/CalculatorTestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/calculatortest/CalculatorTestApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/calculatortest/calculatortest/controllers/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/calculatortest/calculatortest/domain/UsersDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/calculatortest/domain/UsersDictionary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/calculatortest/calculatortest/interfaces/Users.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/calculatortest/calculatortest/services/Calculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/calculatortest/calculatortest/services/HelloService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/calculatortest/calculatortest/CalculatorTestApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/calculatortest/CalculatorTestApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/calculatortest/calculatortest/integrationTests/CalculateTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/calculatortest/calculatortest/services/CalculatorTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/calculatortest/calculatortest/services/HelloServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/calculatortest/controllers/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/calculatortest/controllers/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/calculatortest/domain/UsersDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/calculatortest/domain/UsersDictionary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/calculatortest/services/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/calculatortest/services/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/calculatortest/TestCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/calculatortest/TestCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/calculatortest/TestUserDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/calculatortest/TestUserDictionary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.calculatortest.CalculatorTestApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.calculatortest.CalculatorTestApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.calculatortest.TestCalculator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.calculatortest.TestCalculator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.calculatortest.TestUserDictionary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.calculatortest.TestUserDictionary.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.example.calculatortest.CalculatorTestApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.example.calculatortest.CalculatorTestApplicationTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.example.calculatortest.TestCalculator.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.example.calculatortest.TestCalculator.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.example.calculatortest.TestUserDictionary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.example.calculatortest.TestUserDictionary.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,11 +58,48 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.calculator-test [clean,install,test]">
-    <configuration name="All in calculator-test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.IntegrationTest">
+    <configuration name="CalculatorIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="calculator-test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.calculatortest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.calculatortest" />
+      <option name="MAIN_CLASS_NAME" value="com.example.calculatortest.CalculatorIntegrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTestApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculator-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.calculatortest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.calculatortest" />
+      <option name="MAIN_CLASS_NAME" value="com.example.calculatortest.CalculatorTestApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculator-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.calculatortest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.calculatortest" />
+      <option name="MAIN_CLASS_NAME" value="com.example.calculatortest.IntegrationTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,7 +119,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCalculator.testCalculateMock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestUserDictionary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="calculator-test" />
       <extension name="coverage">
         <pattern>
@@ -116,25 +128,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.calculatortest" />
-      <option name="MAIN_CLASS_NAME" value="com.example.calculatortest.TestCalculator" />
-      <option name="METHOD_NAME" value="testCalculateMock" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestCalculator.testCalculateReal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="calculator-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.calculatortest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.calculatortest" />
-      <option name="MAIN_CLASS_NAME" value="com.example.calculatortest.TestCalculator" />
-      <option name="METHOD_NAME" value="testCalculateReal" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.example.calculatortest.TestUserDictionary" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -203,19 +198,21 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.All in calculator-test" />
+      <item itemvalue="JUnit.TestCalculator" />
       <item itemvalue="Maven.calculator-test [clean,install,test]" />
       <item itemvalue="Maven.run" />
-      <item itemvalue="JUnit.TestCalculator" />
-      <item itemvalue="JUnit.TestCalculator.testCalculateReal" />
-      <item itemvalue="JUnit.TestCalculator.testCalculateMock" />
+      <item itemvalue="JUnit.CalculatorTestApplicationTests" />
+      <item itemvalue="JUnit.TestUserDictionary" />
+      <item itemvalue="JUnit.CalculatorIntegrationTest" />
+      <item itemvalue="JUnit.IntegrationTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestCalculator.testCalculateMock" />
-        <item itemvalue="JUnit.TestCalculator.testCalculateReal" />
+        <item itemvalue="JUnit.IntegrationTest" />
+        <item itemvalue="JUnit.CalculatorIntegrationTest" />
         <item itemvalue="JUnit.TestCalculator" />
-        <item itemvalue="JUnit.All in calculator-test" />
+        <item itemvalue="JUnit.TestUserDictionary" />
+        <item itemvalue="JUnit.CalculatorTestApplicationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -240,5 +237,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

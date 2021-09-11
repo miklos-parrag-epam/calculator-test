@@ -1,13 +1,14 @@
 package com.example.calculatortest.domain;
 
+import org.springframework.stereotype.Repository;
+
 import java.util.Hashtable;
+import java.util.Map;
 import java.util.Objects;
 
+@Repository
 public class UsersDictionary {
-    Hashtable<String, String> userDictionary = new Hashtable<String, String>();
-
-    public UsersDictionary() {
-    }
+    Map<String, String> userDictionary = new Hashtable<>();
 
     public void addUser(String name, String role) {
         userDictionary.put(name, role);

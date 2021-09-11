@@ -7,7 +7,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class Controller {
-    Calculator calc;
+    private final Calculator calc;
+
+    public Controller(Calculator calc) {
+        this.calc = calc;
+    }
 
     @GetMapping("/calc")
     public String calc(@RequestParam String a, @RequestParam String b, @RequestParam String user, @RequestParam String opr) {
