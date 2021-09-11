@@ -12,6 +12,7 @@ import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
+import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
@@ -36,4 +37,5 @@ public class IntegrationTest {
         assertEquals("4", testRestTemplate.getForObject("/calc?a=1&b=3&user=Rozi&opr=add", String.class, Map.of()));
         assertNotEquals("4", testRestTemplate.getForObject("/calc?a=1&b=3&user=Gizi&opr=add", String.class, Map.of()));
     }
+
 }
