@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8bfc74de-58cb-421d-89c3-534b9f0bda4f" name="Changes" comment="port">
+    <list default="true" id="8bfc74de-58cb-421d-89c3-534b9f0bda4f" name="Changes" comment="added user">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/calculatortest/CalculatorTestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/calculatortest/CalculatorTestApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/calculatortest/CalculatorIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/calculatortest/CalculatorIntegrationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/calculatortest/IntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/calculatortest/IntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/calculatortest/TestCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/calculatortest/TestCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.example.calculatortest.CalculatorTestApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.example.calculatortest.CalculatorTestApplicationTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.example.calculatortest.TestCalculator.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.example.calculatortest.TestCalculator.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.example.calculatortest.TestUserDictionary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.example.calculatortest.TestUserDictionary.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +50,15 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.IntegrationTest">
+  <component name="RunManager" selected="JUnit.All in calculator-test">
+    <configuration name="All in calculator-test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculator-test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CalculatorIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="calculator-test" />
       <extension name="coverage">
@@ -101,21 +115,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.example.calculatortest" />
       <option name="MAIN_CLASS_NAME" value="com.example.calculatortest.TestCalculator" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestUserDictionary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="calculator-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.calculatortest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.calculatortest" />
-      <option name="MAIN_CLASS_NAME" value="com.example.calculatortest.TestUserDictionary" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -186,20 +185,20 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.TestCalculator" />
-      <item itemvalue="Maven.calculator-test [clean,install,test]" />
-      <item itemvalue="Maven.run" />
-      <item itemvalue="JUnit.TestUserDictionary" />
       <item itemvalue="JUnit.CalculatorIntegrationTest" />
       <item itemvalue="JUnit.IntegrationTest" />
       <item itemvalue="JUnit.IntegrationTest.testVerifyUserAdded" />
+      <item itemvalue="Maven.calculator-test [clean,install,test]" />
+      <item itemvalue="Maven.run" />
+      <item itemvalue="JUnit.All in calculator-test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in calculator-test" />
         <item itemvalue="JUnit.IntegrationTest" />
         <item itemvalue="JUnit.IntegrationTest.testVerifyUserAdded" />
         <item itemvalue="JUnit.CalculatorIntegrationTest" />
         <item itemvalue="JUnit.TestCalculator" />
-        <item itemvalue="JUnit.TestUserDictionary" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631402287029</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added user">
+      <created>1631403378368</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1631403378368</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -244,6 +250,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="mock test and integration test" />
     <MESSAGE value="port" />
-    <option name="LAST_COMMIT_MESSAGE" value="port" />
+    <MESSAGE value="added user" />
+    <option name="LAST_COMMIT_MESSAGE" value="added user" />
   </component>
 </project>

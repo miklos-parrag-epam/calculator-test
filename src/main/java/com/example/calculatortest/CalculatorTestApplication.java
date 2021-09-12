@@ -18,7 +18,7 @@ public class CalculatorTestApplication {
 
 	@PostConstruct
 	void setup(){
-		usersDictionary.addUser("Gizi", "add");
+		usersDictionary.addUser("RealUser", "add");
 	}
 
 }
