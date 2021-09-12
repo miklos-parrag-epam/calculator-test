@@ -29,7 +29,7 @@ public class TestCalculator {
     public void testCalculateMock() {
         String testA = "4";
         String testB = "5";
-        String testUser = "Rozi";
+        String testUser = "MockUser";
         String testOpr = "add";
 
         when(usersDictionaryMock.checkUserExist(testUser, testOpr)).thenReturn(true);
